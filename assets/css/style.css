@@ -9,7 +9,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
   }
 
-/* Apply styles to <header> */
+/* <header> START*/
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -47,9 +47,9 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
-/*<Header> end*/
+/*<Header> END*/
 
-/*Apply styles to the <footer>*/
+/*<footer> START*/
 footer {
     background: #fce138;
     width: 100%;
@@ -73,13 +73,13 @@ footer div {
 footer a {
     color: #024e76
 }
-/*<footer> end*/
+/*<footer> END*/
 
 section {
     padding: 60px;
 }
 
-/* Hero Style Start */
+/* HERO STYLES START */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -143,7 +143,7 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* Hero Style End */
+/* HERO STYLES END */
 
 .section-title {
     font-size: 55px;
@@ -172,7 +172,7 @@ section {
     text-align: center;
 }
 
-/*Steps styles start*/
+/*STEPS STYLES START*/
 .steps {
     background: #fce138;
 } 
@@ -224,8 +224,9 @@ section {
   line-height: 1.5;
   color: #024e76;
 }
-/*Steps styles end*/
+/*STEPS STYLES END*/
 
+/*TRAINERS STYLES START*/
 .trainers {
   width: 100%;
   margin: 0 auto;
@@ -263,8 +264,9 @@ section {
 .trainer-bio p {
   font-size: 17px;
 }
+/*TRAINERS STYLES END*/
 
-    /* REACH OUT STYLES START */
+/* REACH OUT STYLES START */
 .contact {
     background-color: #024e76;
 }
@@ -273,17 +275,22 @@ section {
     color: #fce138;
 }
 
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div {
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 60px;
   color: white;
 }
 
@@ -295,14 +302,34 @@ section {
 .contact-info p, .contact-info address {
   margin: 20px 0;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
 }
 
 .contact-info a {
   color: #fce138;
+}  
+
+.contact-form input, .contact-form textarea {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
-  
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #fce138;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+}
 /* REACH OUT STYLES END */
 
 .page-title {
