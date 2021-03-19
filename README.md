@@ -13,3 +13,5 @@ A website that offers fitness training services.
 
 ## Contribution
 Made with ❤️ by Benjamin Winkler
+
+# Run Buddy Inc.
